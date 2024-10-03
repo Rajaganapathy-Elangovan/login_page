@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow: hidden;
+}
+.main{
+    background-image: url(./asset/pexels-japy-1069798.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.d1{
+    background-color: aliceblue;
+    width: 450px;
+    height: 500px;
+    box-shadow: 12px 0px 2px 30px  blanchedalmond;
+}
+.img{
+    width: 450px;
+    height: 450px;
+    padding-top: 4px;
+    animation-name: raja;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+.dc{
+    padding-top: 20px;
+    padding-left: 70px;
+}
+.p1{
+    width: 200px;
+    font-size: 17px;
+    padding-top: 20px;
+    
+}
+.bu1{
+    border: none;
+    margin-top: 20px;
+    background-color: blue;
+    color: aqua;
+    width: 110px;
+    height: 28px;
+}
+.bu2{
+    border: none;
+    margin-top: 20px;
+    background-color: green;
+    color: aqua;
+    width: 110px;
+    height: 28px;
+    margin: 20px;
+}
+.or{
+    text-align: center;
+    width: 180px;
+}
+.em{
+    background: none;
+    border: none;
+    border-bottom: 2px solid yellow ;
+    width: 250px;
+    height: 28px;
+    display: flex;
+}
+.ps{
+    background: none;
+    border: none;
+    border-bottom: 2px solid yellow ;
+    width: 250px;
+    height: 10px;
+    padding-top: 20px;
+    display: flex;
+}
+.che{
+    padding-top: 20px;
+}
+.p2{
+    display: inline;
+    padding-left: 60px;
+    font-size: 15px;
+}
+.lo{
+    border: none;
+    margin-top: 20px;
+    background-color: green;
+    color: aqua;
+    width: 110px;
+    height: 28px;
+}
+.up{
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    width: 110px;
+    height: 28px;
+    margin: 20px;
+}
+.he{
+    padding-top: 20px;
+}
+.tp{
+    margin-top: 20px;
+}
+@keyframes raja {
+    0%{
+        transform: translateY(0PX);
+    }
+    25%{
+        transform: translateY(-40PX);
+    }
+    50%{
+        transform: translateX(-40px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+@media all and (max-width:600px) {
+    .main{
+        height: 1000px;
+        width: 500px;
+    }
+    
+}
